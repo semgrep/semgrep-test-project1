@@ -1,0 +1,4 @@
+# A local .semgrepignore file
+
+/semgrepignored-only-in-src.py
+semgrepignored-only-in-src-and-below.py

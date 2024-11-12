@@ -1,0 +1,4 @@
+# A local .gitignore file
+
+/gitignored-only-in-src.py
+gitignored-only-in-src-and-below.py
