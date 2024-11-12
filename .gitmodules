@@ -1,0 +1,3 @@
+[submodule "submodules/semgrep-test-project2"]
+	path = submodules/semgrep-test-project2
+	url = https://github.com/semgrep/semgrep-test-project2.git
