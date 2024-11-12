@@ -1,0 +1,15 @@
+# A semgrepignore file exercising a variety of patterns and special cases
+
+# Anchored patterns
+/semgrepignored-root
+/semgrepignored-root-folder/
+src/semgrepignored-anchored
+
+# Anchored but floating pattern
+**/sempignored-py-contents/*.py
+
+# Unanchored patterns
+semgrepignored-everywhere
+semgrepignored-folder/
+semgrepignored.py
+*.png
