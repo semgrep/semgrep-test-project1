@@ -6,7 +6,10 @@
 src/semgrepignored-anchored
 
 # Anchored but floating pattern
-**/sempignored-py-contents/*.py
+**/semgrepignored-py-contents/*.py
+
+# Another variant of an anchored pattern with **
+semgrepignored-at-root/**/*
 
 # Unanchored patterns
 semgrepignored-everywhere
