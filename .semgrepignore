@@ -1,5 +1,8 @@
 # A semgrepignore file exercising a variety of patterns and special cases
 
+# Deprecated in osemgrep
+:include .gitignore
+
 # Anchored patterns
 /semgrepignored-root
 /semgrepignored-root-folder/
