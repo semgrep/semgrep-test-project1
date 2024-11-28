@@ -19,3 +19,6 @@ semgrepignored-everywhere
 semgrepignored-folder/
 semgrepignored.py
 *.png
+
+# Undo .gitignore exclusion
+!gitignored-not-semgrepignored.py

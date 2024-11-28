@@ -1,3 +1,6 @@
 # Root .gitignore file
 
 gitignored.py
+
+# De-ignored by .semgrepignore
+gitignored-not-semgrepignored.py
