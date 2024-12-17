@@ -1,7 +1,7 @@
 # A semgrepignore file exercising a variety of patterns and special cases
 
 # Deprecated in osemgrep
-:include .gitignore
+:include included-semgrepignore
 
 # Anchored patterns
 /semgrepignored-root
