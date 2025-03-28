@@ -25,3 +25,7 @@ semgrepignored.py
 # Match dot files with wildcards, unlike shell globs
 dotfiles/*.py
 dotfiles/?excluded.rb
+
+# Backward compatibility with Semgrepignore v1 (deprecated)
+./normalized-patterns/excluded-for-v1-compatibility
+./not-excluded-for-v1-compatibility
