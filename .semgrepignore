@@ -1,6 +1,5 @@
 # A semgrepignore file exercising a variety of patterns and special cases
 
-# Deprecated in osemgrep
 :include included-semgrepignore
 
 # Anchored patterns
@@ -22,3 +21,7 @@ semgrepignored.py
 
 # Undo .gitignore exclusion
 !gitignored-not-semgrepignored.py
+
+# Match dot files with wildcards, unlike shell globs
+dotfiles/*.py
+dotfiles/?excluded.rb
